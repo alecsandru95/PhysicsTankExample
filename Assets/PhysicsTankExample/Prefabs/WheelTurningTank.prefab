@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7719227079826321246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8010438188743564346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabed80955c644d4bb825646469c50ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _TopSpeed: 10
+  _MotorTorque: 30
+  _CenterOfMass: {fileID: 8016020815363758086}
+  _WheelPrefab: {fileID: 1181890427383218, guid: 07216a712257a1e459f116450fda489c,
+    type: 3}
+--- !u!1001 &8011527559534646398
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1234516292667460, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234516292667460, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_Name
+      value: WheelTurningTank
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318392802981672, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114214424558794950, guid: 834ebc2433ddbd646a7672f382e56101,
+        type: 3}
+      propertyPath: steeringAngle
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 114214424558794950, guid: 834ebc2433ddbd646a7672f382e56101,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 834ebc2433ddbd646a7672f382e56101, type: 3}
+--- !u!1 &8010438188743564346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1234516292667460, guid: 834ebc2433ddbd646a7672f382e56101,
+    type: 3}
+  m_PrefabInstance: {fileID: 8011527559534646398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8016020815363758086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4514232585702520, guid: 834ebc2433ddbd646a7672f382e56101,
+    type: 3}
+  m_PrefabInstance: {fileID: 8011527559534646398}
+  m_PrefabAsset: {fileID: 0}
