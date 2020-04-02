@@ -3,7 +3,7 @@ This project is meant to show three different ways to use Unity's standard Wheel
 
 Something to keep in mind is that this is very much just an example. While you could theoretically just plug this into a project and set it up, because it’s so general purpose and prototype-like I would recommend deciding on which method you like best, and then simplifying the code to take only what you need.
 
-Built in **Unity 2017.3**.
+Built in **Unity 2019.3**.
 
 ![screenshot](Screenshots/tankrolling.gif)
 
